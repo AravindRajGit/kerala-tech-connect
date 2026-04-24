@@ -1,0 +1,152 @@
+window.ktcData = {
+  speakers: [
+    {
+      name: "Anjali Nair",
+      location: "Kochi",
+      topics: [".NET", "Cloud", "Leadership"],
+      bio: "Engineering manager and keynote speaker focused on platform reliability and technical career growth.",
+      social: {
+        linkedin: "https://linkedin.com",
+        twitter: "https://x.com",
+      },
+    },
+    {
+      name: "Rahul Menon",
+      location: "Trivandrum",
+      topics: ["AI", "Data", "Python"],
+      bio: "AI engineer who runs hands-on workshops for students and early-career developers.",
+      social: {
+        linkedin: "https://linkedin.com",
+        twitter: "https://x.com",
+      },
+    },
+    {
+      name: "Fathima Rahman",
+      location: "Kozhikode",
+      topics: ["React", "UX", "Product"],
+      bio: "Frontend specialist speaking about modern web experiences and product thinking.",
+      social: {
+        linkedin: "https://linkedin.com",
+        twitter: "https://x.com",
+      },
+    },
+    {
+      name: "Sanjay Varma",
+      location: "Thrissur",
+      topics: ["DevOps", "Kubernetes", "Cloud"],
+      bio: "DevOps consultant who helps teams build resilient delivery pipelines and observability habits.",
+      social: {
+        linkedin: "https://linkedin.com",
+        twitter: "https://x.com",
+      },
+    },
+    {
+      name: "Meera Suresh",
+      location: "Kollam",
+      topics: ["Cybersecurity", "Web", "Mentorship"],
+      bio: "Security advocate helping college students understand secure coding and career paths.",
+      social: {
+        linkedin: "https://linkedin.com",
+        twitter: "https://x.com",
+      },
+    },
+    {
+      name: "Arjun Das",
+      location: "Alappuzha",
+      topics: ["Mobile", "Flutter", "Startups"],
+      bio: "Product-minded mobile developer who enjoys speaking at startup and campus events.",
+      social: {
+        linkedin: "https://linkedin.com",
+        twitter: "https://x.com",
+      },
+    },
+  ],
+  bloggers: [
+    {
+      name: "Nikhil Dev",
+      platform: "YouTube",
+      topics: ["JavaScript", "React", "Career Tips"],
+      description: "Builds concise tutorials and interview preparation videos for aspiring developers.",
+      link: "https://youtube.com",
+    },
+    {
+      name: "Asha Nambiar",
+      platform: "Medium",
+      topics: ["AI", "Product", "Writing"],
+      description: "Writes practical articles about shipping products with AI and strong product thinking.",
+      link: "https://medium.com",
+    },
+    {
+      name: "Vivek Krishnan",
+      platform: "Blog",
+      topics: [".NET", "Architecture", "Cloud"],
+      description: "Publishes deep dives on software architecture, API design, and backend best practices.",
+      link: "https://example.com",
+    },
+    {
+      name: "Sneha Pillai",
+      platform: "YouTube",
+      topics: ["Flutter", "Mobile", "Design"],
+      description: "Creates beginner-friendly mobile development videos with clean UI implementation examples.",
+      link: "https://youtube.com",
+    },
+    {
+      name: "Ibrahim Khan",
+      platform: "Medium",
+      topics: ["DevOps", "Kubernetes", "AWS"],
+      description: "Shares notes from real infrastructure work, including deployment, scaling, and monitoring.",
+      link: "https://medium.com",
+    },
+    {
+      name: "Keerthi Raj",
+      platform: "Blog",
+      topics: ["Data", "Python", "Learning"],
+      description: "Explains data workflows, Python snippets, and learning resources for students.",
+      link: "https://example.com",
+    },
+  ],
+  communities: [
+    {
+      name: "GDG Kochi",
+      city: "Kochi",
+      focus: "Google tech stack",
+      description: "A community for developers building with Google tools, web platforms, and cloud technologies.",
+      join: "https://gdg.community.dev",
+    },
+    {
+      name: "React Kerala",
+      city: "Trivandrum",
+      focus: "Frontend",
+      description: "Meetups, workshops, and knowledge sharing for modern frontend developers in Kerala.",
+      join: "https://example.com",
+    },
+    {
+      name: "Women Who Code Kochi",
+      city: "Kochi",
+      focus: "Inclusive tech",
+      description: "A supportive network focused on mentorship, learning, and career growth for women in tech.",
+      join: "https://www.womenwhocode.com",
+    },
+    {
+      name: "Cloud Native Kerala",
+      city: "Calicut",
+      focus: "Cloud & DevOps",
+      description: "For engineers interested in Kubernetes, observability, platform engineering, and cloud-native tooling.",
+      join: "https://example.com",
+    },
+    {
+      name: "Python Kerala",
+      city: "Thrissur",
+      focus: "Python",
+      description: "A community for Python enthusiasts, data learners, and automation builders.",
+      join: "https://example.com",
+    },
+    {
+      name: "Startup Founders Kerala",
+      city: "Kochi",
+      focus: "Startups",
+      description: "A founder-focused circle for product discussions, hiring insights, and startup collaboration.",
+      join: "https://example.com",
+    },
+  ],
+};
