@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kerala Tech Connect</title>
+    <meta
+      name="description"
+      content="Discover tech speakers, bloggers, vloggers, and communities across Kerala."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body data-page="home">
+    <div id="site-header"></div>
+
+    <main>
+      <section class="hero">
+        <div class="hero__bg"></div>
+        <div class="container hero__content">
+          <div class="hero__copy reveal">
+            <span class="eyebrow">Kerala's tech directory</span>
+            <h1>Discover Tech Speakers & Communities in Kerala</h1>
+            <p class="hero__subtitle">
+              A curated platform for colleges, event organizers, and students to find inspiring
+              voices, useful content creators, and active communities across Kerala.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="speakers.html">Explore Speakers</a>
+              <a class="btn btn--secondary" href="communities.html">Browse Communities</a>
+            </div>
+            <div class="hero__stats">
+              <div class="stat-card">
+                <strong>120+</strong>
+                <span>Tech speakers</span>
+              </div>
+              <div class="stat-card">
+                <strong>45+</strong>
+                <span>Creator profiles</span>
+              </div>
+              <div class="stat-card">
+                <strong>30+</strong>
+                <span>Communities</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__panel reveal">
+            <div class="panel-card">
+              <div class="panel-card__header">
+                <span>Featured today</span>
+                <i class="fa-solid fa-sparkles"></i>
+              </div>
+              <div class="mini-list" id="hero-featured-list"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="featured-speakers">
+        <div class="section__header reveal">
+          <div>
+            <span class="eyebrow">Featured speakers</span>
+            <h2>Trusted voices for campus talks and industry events</h2>
+          </div>
+          <a href="speakers.html" class="text-link">View all speakers <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="card-grid card-grid--3 reveal" id="featured-speakers-grid"></div>
+      </section>
+
+      <section class="section section--alt" id="popular-communities">
+        <div class="container">
+          <div class="section__header reveal">
+            <div>
+              <span class="eyebrow">Popular communities</span>
+              <h2>Communities that keep Kerala's tech scene active</h2>
+            </div>
+            <a href="communities.html" class="text-link"
+              >View all communities <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="card-grid card-grid--3 reveal" id="featured-communities-grid"></div>
+        </div>
+      </section>
+
+      <section class="section container" id="how-it-works">
+        <div class="section__header reveal">
+          <div>
+            <span class="eyebrow">How it works</span>
+            <h2>Find the right people in three simple steps</h2>
+          </div>
+        </div>
+        <div class="steps-grid reveal">
+          <article class="step-card">
+            <div class="step-card__icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <h3>Search profiles</h3>
+            <p>Browse speakers, bloggers, vloggers, and communities using a clean directory view.</p>
+          </article>
+          <article class="step-card">
+            <div class="step-card__icon"><i class="fa-solid fa-filter"></i></div>
+            <h3>Filter by focus</h3>
+            <p>Use topic and location filters to narrow down the right match for your event or group.</p>
+          </article>
+          <article class="step-card">
+            <div class="step-card__icon"><i class="fa-solid fa-handshake-angle"></i></div>
+            <h3>Connect directly</h3>
+            <p>Follow social links or join links to reach out quickly and start collaborating.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <div id="site-footer"></div>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

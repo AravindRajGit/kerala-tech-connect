@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bloggers & Vloggers | Kerala Tech Connect</title>
+    <meta
+      name="description"
+      content="Browse Kerala-based tech bloggers and vloggers with useful content on modern tech."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body data-page="bloggers">
+    <div id="site-header"></div>
+
+    <main class="page-shell">
+      <section class="page-hero container">
+        <div class="page-hero__copy reveal">
+          <span class="eyebrow">Bloggers & Vloggers</span>
+          <h1>Follow creators sharing practical tech content from Kerala</h1>
+          <p>
+            Explore YouTube channels, blogs, and Medium writers covering tutorials, careers, and
+            product insights.
+          </p>
+        </div>
+        <div class="toolbar reveal">
+          <label class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input id="blogger-search" type="search" placeholder="Search creators, topics, platforms" />
+          </label>
+          <div class="filter-row" id="blogger-filters"></div>
+        </div>
+      </section>
+
+      <section class="section container">
+        <div class="card-grid card-grid--3 reveal" id="bloggers-grid"></div>
+      </section>
+    </main>
+
+    <div id="site-footer"></div>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
